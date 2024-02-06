@@ -1,13 +1,37 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.main-app {
+  background-color: #f1dac4;
+  font-family: "Honk", system-ui;
 }
+
+
+
+.container-nav {
+  background-color: #474973;
+  height: 80px;
+}
+
+.container-nav h1 {
+  text-align: center;
+  padding: 10px;
+  color: white;
+  font-size: 55px;
+}
+
+
+.card-components {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin: 20px;
+}
+
+#title-card {
+  color: white;
+  text-align: center;
+  font-size: 28px;
+}
+
