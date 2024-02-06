@@ -11,7 +11,7 @@ function App() {
 
   useEffect(() => {
     const fetchData = async () => {
-      const res = await fetch("https://rickandmortyapi.com/api/character/1,2,3,4,5,6,7,8,9,10,11,12");
+      const res = await fetch("https://rickandmortyapi.com/api/character/1,2,3,4,5,13,7,8,9,10,11,12");
       const data = await res.json();
       console.log(data)
       //data.results - when I have the entire array with objects inside /character

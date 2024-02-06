@@ -1,13 +1,17 @@
+html {
+  height: 100vh;
+}
+
 body {
   margin: 0;
+  padding: 0;
 }
 
 .main-app {
   background-color: #f1dac4;
   font-family: "Honk", system-ui;
+  
 }
-
-
 
 .container-nav {
   background-color: #474973;
@@ -27,6 +31,7 @@ body {
   flex-wrap: wrap;
   gap: 15px;
   margin: 20px;
+  padding: 15px;
 }
 
 #title-card {
