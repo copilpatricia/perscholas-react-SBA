@@ -1,6 +1,5 @@
 # SBA - Rick and Morty API
 
-
 ## Description
 
 I created an application using the API documentation from Rick and Morty API.
@@ -18,5 +17,4 @@ I used the useEffect hook to connect to the external API: [Ricky and Morty API](
 
 I installed the React Bootstrap library to use the bootstrap card in order to have a flexible content container.
 
-Successfully deployed using Netlify: [Link]()
-
+Successfully deployed using Netlify: [Link Here](https://stately-sorbet-da11c4.netlify.app/)
