@@ -17,7 +17,7 @@ function CardData({ charData }) {
               >
                 <Card.Title id="title-card">{char.name}</Card.Title>
                 <Card.Img variant="top" src={char.image} />
-                <Card.Text style={{fontFamily: "monospace"}}>Gender: {char.gender}</Card.Text>
+                <Card.Text style={{fontFamily: "monospace", marginTop: "5px"}}>Gender: {char.gender}</Card.Text>
                 <Card.Text style={{fontFamily: "monospace"}}>Location: {char.location.name}</Card.Text>
                 <Card.Text style={{fontFamily: "monospace"}}>Origin: {char.origin.name}</Card.Text>
               </Card.Body>
