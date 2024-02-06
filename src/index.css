@@ -29,6 +29,7 @@ body {
 .card-components {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   gap: 15px;
   margin: 20px;
   padding: 15px;

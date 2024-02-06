@@ -18,4 +18,5 @@ I used the useEffect hook to connect to the external API: [Ricky and Morty API](
 
 I installed the React Bootstrap library to use the bootstrap card in order to have a flexible content container.
 
+Successfully deployed using Netlify: [Link]()
 
